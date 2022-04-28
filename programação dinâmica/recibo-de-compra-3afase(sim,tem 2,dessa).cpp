@@ -34,7 +34,7 @@ int solve(int passo, int min_i, int max_i){
 
 int main(){
     cin >> r >> k;
-   memset(dp, -1, sizeof(dp));
+    memset(dp, -1, sizeof(dp));
 
     cout << solve(1,1,r) << "\n";
 
